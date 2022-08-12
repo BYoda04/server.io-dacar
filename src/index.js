@@ -5,7 +5,7 @@ const front = process.env.FRONTEND;
 
 const io = require('socket.io')(port,{
     cors: {
-        origin: front,
+        origin: "https://clever-pony-06f2f1.netlify.app/",
     },
 });
 
